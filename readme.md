@@ -62,7 +62,7 @@ INSERT INTO `students` (
 `registation_number`
 `email`) VALUES (
     '2323'
-'Leonardo','Corazzini','2001-10-19','crzlrd01r19b832x','2019','564684','leocora10@gmail.com')
+'Leonardo','Corazzini','2001-10-19','crzlrd01r19b832x','2019-01-01','564684','leocora10@gmail.com')
  ```
 
  Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
