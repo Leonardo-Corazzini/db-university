@@ -67,9 +67,13 @@ INSERT INTO `students` (
 
  Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
  ```SQL
+ UPDATE `teachers` SET `office_number` = '126'
+WHERE `id` = '58' AND `name` = 'Pietro' AND `surname` = 'Rizzo' 
  ```
 
  Eliminare dalla tabella studenti il record creato precedentemente al punto 9
  ```SQL
+ DELETE FROM `students` 
+WHERE `id` = '5001' AND `name` = 'Leonardo' AND `surname` = 'Corazzini'
  ```
 
